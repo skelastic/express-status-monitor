@@ -28,7 +28,7 @@
   "scripts": {
     "test-ci": "mocha --recursive",
     "test": "mocha --recursive --watch",
-    "example": "/usr/bin/npm i && /usr/bin/npm i --prefix examples && /usr/bin/npm start --prefix examples",
+    "example": "npm i && npm i --prefix examples && npm start --prefix examples",
     "eslint": "eslint ."
   },
   "devDependencies": {
